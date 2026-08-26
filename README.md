@@ -27,8 +27,8 @@ Set-ExecutionPolicy -Scope Process Bypass
 
 ```powershell
 py -3.12 -m venv .venv
-.\.venv\Scripts\Activate.ps1
-python -m pip install --upgrade pip
+.\.venv\Scripts\Activate
+python -m pip install --no-cache-dir mediapipe==0.10.21
 python -m pip install --no-cache-dir -r requirements.txt
 ```
 
