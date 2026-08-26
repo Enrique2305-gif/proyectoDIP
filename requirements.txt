@@ -1,0 +1,6 @@
+# Este proyecto usa la API clasica mp.solutions.face_mesh.
+# Requiere Python 3.12 (64 bits) y MediaPipe 0.10.21.
+mediapipe==0.10.21
+opencv-contrib-python==4.11.0.86
+numpy==1.26.4
+Pillow>=10.0,<13.0
